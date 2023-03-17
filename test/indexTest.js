@@ -1,4 +1,4 @@
-describe('index.js', () => {
+ describe('index.js', () => {
   describe('currentUser', () => {
     it('is defined', () => {
       expect(currentUser, "The 'currentUser' variable must contain a string").to.be.a('string');
